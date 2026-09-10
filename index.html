@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>丝丝格格-角色介绍、故事背景与作品资料整理</title>
+<meta name="description" content="丝丝格格相关角色介绍与作品资料整理，包含人物设定、故事背景、主要情节线索、角色关系与常见问题，帮助读者快速了解丝丝格格这一角色。">
+<meta name="keywords" content="丝丝格格,丝丝格格角色介绍,丝丝格格故事背景,丝丝格格人物设定,丝丝格格作品资料">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#2b2134;
+    --ink-soft:#5c5068;
+    --plum:#7b3f6d;
+    --plum-deep:#552a4c;
+    --gold:#c9a227;
+    --gold-soft:#e8d79a;
+    --paper:#fbf7f2;
+    --paper-2:#f4ece4;
+    --line:#e2d5c8;
+    --radius:14px;
+    --shadow:0 6px 22px rgba(85,42,76,.09);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Songti SC","STSong","Noto Serif SC",Georgia,"Microsoft YaHei",serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.85;
+    font-size:16px;
+  }
+  img{max-width:100%;}
+  a{color:var(--plum);text-decoration:none;}
+  a:hover{color:var(--plum-deep);text-decoration:underline;}
+  .wrap{
+    width:100%;
+    max-width:1120px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+
+  /* ---------- 顶部 ---------- */
+  .site-header{
+    background:linear-gradient(160deg,#552a4c 0%,#7b3f6d 62%,#8f4d7c 100%);
+    color:#fdf7f0;
+    position:relative;
+    overflow:hidden;
+  }
+  .site-header::after{
+    content:"";
+    position:absolute;
+    right:-90px;
+    top:-90px;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background:radial-gradient(circle,rgba(201,162,39,.32),rgba(201,162,39,0) 68%);
+    pointer-events:none;
+  }
+  .header-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    padding:20px 0 14px;
+    flex-wrap:wrap;
+    position:relative;
+    z-index:2;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .brand-mark{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    border:2px solid var(--gold-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    letter-spacing:1px;
+    color:var(--gold-soft);
+    flex:0 0 auto;
+  }
+  .brand-text b{
+    display:block;
+    font-size:20px;
+    letter-spacing:2px;
+    font-weight:700;
+  }
+  .brand-text span{
+    display:block;
+    font-size:12.5px;
+    letter-spacing:1.5px;
+    color:#e6d3e2;
+    font-family:"Microsoft YaHei",sans-serif;
+  }
+  .header-nav{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  .header-nav a{
+    color:#f4e6f0;
+    font-size:14.5px;
+    padding:7px 13px;
+    border-radius:999px;
+    border:1px solid rgba(255,255,255,.22);
+    font-family:"Microsoft YaHei",sans-serif;
+    transition:.2s;
+  }
+  .header-nav a:hover{
+    background:rgba(255,255,255,.16);
+    text-decoration:none;
+    color:#fff;
+  }
+
+  /* ---------- 首屏 ---------- */
+  .hero{
+    padding:26px 0 46px;
+    position:relative;
+    z-index:2;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.35fr 1fr;
+    gap:38px;
+    align-items:start;
+  }
+  .hero h1{
+    font-size:38px;
+    line-height:1.35;
+    margin:0 0 8px;
+    letter-spacing:3px;
+    font-weight:700;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--gold-soft);
+  }
+  .hero-sub{
+    font-size:15px;
+    color:#e9d8e6;
+    letter-spacing:1px;
+    margin:0 0 18px;
+    font-family:"Microsoft YaHei",sans-serif;
+  }
+  .hero-lead{
+    font-size:16.5px;
+    color:#f6ecef;
+    margin:0 0 22px;
+    max-width:640px;
+  }
+  .hero-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:26px;
+  }
+  .hero-tags span{
+    font-size:13px;
+    font-family:"Microsoft YaHei",sans-serif;
+    padding:4px 12px;
+    border-radius:999px;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.2);
+    color:#f3e3ee;
+  }
+  .hero-actions{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:11px 24px;
+    border-radius:999px;
+    font-size:15px;
+    font-family:"Microsoft YaHei",sans-serif;
+    letter-spacing:1px;
+    transition:.22s;
+    border:1px solid transparent;
+    cursor:pointer;
+  }
+  .btn-primary{
+    background:var(--gold);
+    color:#3a2434;
+    font-weight:700;
+  }
+  .btn-primary:hover{
+    background:#dcb63a;
+    color:#2b1a26;
+    text-decoration:none;
+  }
+  .btn-ghost{
+    border-color:rgba(255,255,255,.45);
+    color:#fdf7f0;
+  }
+  .btn-ghost:hover{
+    background:rgba(255,255,255,.14);
+    color:#fff;
+    text-decoration:none;
+  }
+
+  /* 首屏侧栏速览 */
+  .quick-card{
+    background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.24);
+    border-radius:var(--radius);
+    padding:22px 22px 16px;
+    backdrop-filter:blur(2px);
+  }
+  .quick-card h2{
+    font-size:16px;
+    margin:0 0 14px;
+    letter-spacing:2px;
+    color:var(--gold-soft);
+    font-weight:700;
+  }
+  .quick-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .quick-list li{
+    display:flex;
+    gap:10px;
+    font-size:14.5px;
+    font-family:"Microsoft YaHei",sans-serif;
+    padding:9px 0;
+    border-bottom:1px dashed rgba(255,255,255,.2);
+    color:#f4e8f0;
+  }
+  .quick-list li:last-child{border-bottom:none;}
+  .quick-list b{
+    flex:0 0 74px;
+    color:var(--gold-soft);
+    font-weight:600;
+  }
+
+  /* ---------- 通用区块 ---------- */
+  main{
+    display:block;
+  }
+  .section{
+    padding:52px 0;
+  }
+  .section.alt{
+    background:var(--paper-2);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .section-head{
+    margin-bottom:28px;
+  }
+  .section-head .kicker{
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:12.5px;
+    letter-spacing:3px;
+    color:var(--plum);
+    text-transform:uppercase;
+    display:block;
+    margin-bottom:6px;
+  }
+  .section-head h2{
+    font-size:26px;
+    margin:0 0 10px;
+    letter-spacing:2px;
+    color:var(--plum-deep);
+  }
+  .section-head p{
+    margin:0;
+    color:var(--ink-soft);
+    font-size:15.5px;
+    max-width:760px;
+  }
+
+  /* ---------- 人物设定 ---------- */
+  .profile-grid{
+    display:grid;
+    grid-template-columns:1fr 1.5fr;
+    gap:30px;
+    align-items:start;
+  }
+  .profile-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:26px 24px;
+  }
+  .profile-card .avatar{
+    width:88px;
+    height:88px;
+    border-radius:50%;
+    background:linear-gradient(140deg,#7b3f6d,#c9a227);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    letter-spacing:2px;
+    margin-bottom:16px;
+  }
+  .profile-card h3{
+    margin:0 0 4px;
+    font-size:21px;
+    letter-spacing:2px;
+  }
+  .profile-card .en{
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    letter-spacing:1px;
+    margin-bottom:16px;
+    display:block;
+  }
+  .profile-meta{
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:14px;
+  }
+  .profile-meta li{
+    display:flex;
+    gap:10px;
+    padding:8px 0;
+    border-bottom:1px dashed var(--line);
+  }
+  .profile-meta li:last-child{border-bottom:none;}
+  .profile-meta b{
+    flex:0 0 72px;
+    color:var(--plum);
+    font-weight:600;
+  }
+  .profile-meta span{color:var(--ink-soft);}
+
+  .profile-body h3{
+    font-size:19px;
+    margin:0 0 12px;
+    letter-spacing:1.5px;
+    color:var(--plum-deep);
+  }
+  .profile-body h3:not(:first-child){margin-top:30px;}
+  .profile-body p{
+    margin:0 0 14px;
+    font-size:15.8px;
+    color:#413648;
+  }
+  .trait-row{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+    margin-top:6px;
+  }
+  .trait{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:3px solid var(--gold);
+    border-radius:8px;
+    padding:14px 16px;
+  }
+  .trait b{
+    display:block;
+    font-size:15px;
+    margin-bottom:5px;
+    color:var(--plum-deep);
+    letter-spacing:1px;
+  }
+  .trait p{
+    margin:0;
+    font-size:14px;
+    color:var(--ink-soft);
+    font-family:"Microsoft YaHei",sans-serif;
+    line-height:1.75;
+  }
+
+  /* ---------- 故事背景 ---------- */
+  .story-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .story-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px 22px;
+    box-shadow:var(--shadow);
+    position:relative;
+  }
+  .story-card .num{
+    font-family:Georgia,serif;
+    font-size:34px;
+    color:var(--gold-soft);
+    line-height:1;
+    display:block;
+    margin-bottom:10px;
+  }
+  .story-card h3{
+    margin:0 0 10px;
+    font-size:17.5px;
+    letter-spacing:1px;
+    color:var(--plum-deep);
+  }
+  .story-card p{
+    margin:0;
+    font-size:14.6px;
+    color:var(--ink-soft);
+    font-family:"Microsoft YaHei",sans-serif;
+    line-height:1.8;
+  }
+
+  /* ---------- 关系 / 人物表 ---------- */
+  .rel-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:14.5px;
+  }
+  .rel-table caption{
+    caption-side:top;
+    text-align:left;
+    font-family:"Songti SC",serif;
+    font-size:14px;
+    color:var(--ink-soft);
+    padding:0 0 12px;
+  }
+  .rel-table th,
+  .rel-table td{
+    padding:13px 16px;
+    text-align:left;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+  }
+  .rel-table thead th{
+    background:#f0e4ee;
+    color:var(--plum-deep);
+    font-weight:700;
+    letter-spacing:1px;
+    white-space:nowrap;
+  }
+  .rel-table tbody tr:last-child td{border-bottom:none;}
+  .rel-table tbody tr:nth-child(even){background:#fdfaf7;}
+
+  /* ---------- 看点列表 ---------- */
+  .highlights{
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    gap:32px;
+    align-items:start;
+  }
+  .hl-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    counter-reset:hl;
+  }
+  .hl-list li{
+    counter-increment:hl;
+    position:relative;
+    padding:0 0 20px 46px;
+    border-left:2px solid var(--line);
+    margin-left:14px;
+  }
+  .hl-list li:last-child{
+    border-left-color:transparent;
+    padding-bottom:0;
+  }
+  .hl-list li::before{
+    content:counter(hl);
+    position:absolute;
+    left:-15px;
+    top:-2px;
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background:var(--plum);
+    color:#fff;
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:13.5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .hl-list h3{
+    margin:0 0 6px;
+    font-size:17px;
+    letter-spacing:1px;
+    color:var(--plum-deep);
+  }
+  .hl-list p{
+    margin:0;
+    font-size:14.6px;
+    color:var(--ink-soft);
+    font-family:"Microsoft YaHei",sans-serif;
+    line-height:1.8;
+  }
+  .note-box{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 24px;
+    box-shadow:var(--shadow);
+  }
+  .note-box h3{
+    margin:0 0 12px;
+    font-size:17px;
+    letter-spacing:1px;
+    color:var(--plum-deep);
+  }
+  .note-box p{
+    margin:0 0 12px;
+    font-size:14.6px;
+    color:var(--ink-soft);
+    font-family:"Microsoft YaHei",sans-serif;
+    line-height:1.8;
+  }
+  .note-box p:last-child{margin-bottom:0;}
+
+  /* ---------- 阅读/观看建议 ---------- */
+  .guide-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+  }
+  .guide-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 22px 18px;
+  }
+  .guide-card h3{
+    margin:0 0 10px;
+    font-size:17px;
+    color:var(--plum-deep);
+    letter-spacing:1px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .guide-card h3::before{
+    content:"";
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:var(--gold);
+    flex:0 0 auto;
+  }
+  .guide-card ul{
+    margin:0;
+    padding-left:20px;
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .guide-card li{padding:4px 0;}
+
+  /* ---------- FAQ ---------- */
+  .faq{
+    max-width:860px;
+    margin:0 auto;
+  }
+  .faq details{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:10px;
+    margin-bottom:12px;
+    padding:0 20px;
+    transition:.2s;
+  }
+  .faq details[open]{
+    border-color:var(--gold-soft);
+    box-shadow:var(--shadow);
+  }
+  .faq summary{
+    cursor:pointer;
+    padding:16px 0;
+    font-size:16px;
+    font-weight:700;
+    color:var(--plum-deep);
+    letter-spacing:.5px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:14px;
+  }
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary::after{
+    content:"+";
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:20px;
+    color:var(--plum);
+    flex:0 0 auto;
+    transition:.2s;
+  }
+  .faq details[open] summary::after{
+    content:"–";
+  }
+  .faq .answer{
+    padding:0 0 18px;
+    font-size:15px;
+    color:var(--ink-soft);
+    font-family:"Microsoft YaHei",sans-serif;
+    line-height:1.85;
+    border-top:1px dashed var(--line);
+    padding-top:14px;
+  }
+
+  /* ---------- 页脚 ---------- */
+  .site-footer{
+    background:#33202f;
+    color:#cbb9c6;
+    padding:44px 0 26px;
+    font-family:"Microsoft YaHei",sans-serif;
+    font-size:14px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:30px;
+    padding-bottom:26px;
+    border-bottom:1px solid rgba(255,255,255,.12);
+  }
+  .footer-grid h4{
+    color:#f0e2ec;
+    font-size:15px;
+    margin:0 0 12px;
+    letter-spacing:1.5px;
+  }
+  .footer-grid p{
+    margin:0 0 10px;
+    line-height:1.8;
+    color:#b8a4b3;
+  }
+  .footer-grid ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .footer-grid li{padding:4px 0;}
+  .footer-grid a{color:#cbb9c6;}
+  .footer-grid a:hover{color:#fff;}
+  .footer-bottom{
+    padding-top:18px;
+    display:flex;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+    color:#9d8797;
+    font-size:13px;
+  }
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;gap:28px;}
+    .hero h1{font-size:31px;}
+    .profile-grid{grid-template-columns:1fr;}
+    .story-grid{grid-template-columns:1fr 1fr;}
+    .highlights{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:680px){
+    body{font-size:15.5px;}
+    .wrap{padding:0 16px;}
+    .header-top{padding:16px 0 10px;}
+    .header-nav a{font-size:13.5px;padding:6px 11px;}
+    .hero{padding:18px 0 34px;}
+    .hero h1{font-size:26px;letter-spacing:2px;}
+    .hero-lead{font-size:15.5px;}
+    .section{padding:38px 0;}
+    .section-head h2{font-size:22px;}
+    .story-grid{grid-template-columns:1fr;}
+    .trait-row{grid-template-columns:1fr;}
+    .guide-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr;}
+    .rel-table{font-size:13.5px;}
+    .rel-table th,.rel-table td{padding:10px 11px;}
+    .rel-table thead th{white-space:normal;}
+    .profile-card{padding:20px 18px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="header-top">
+      <div class="brand">
+        <div class="brand-mark">丝</div>
+        <div class="brand-text">
+          <b>丝丝格格</b>
+          <span>角色资料 · 故事梳理</span>
+        </div>
+      </div>
+      <nav class="header-nav" aria-label="站内导航">
+        <a href="#profile">人物设定</a>
+        <a href="#story">故事背景</a>
+        <a href="#relation">角色关系</a>
+        <a href="#highlight">内容看点</a>
+        <a href="#guide">了解建议</a>
+        <a href="#faq">常见问题</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ 首屏 ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <h1>丝丝格格<em>：一个被反复提起的角色</em></h1>
+          <p class="hero-sub">人物设定 · 故事背景 · 关系脉络 · 资料整理</p>
+          <p class="hero-lead">
+            搜索“丝丝格格”，多半是想弄清楚她是谁、出自哪里、在故事里承担什么作用。
+            本站把公开可查的角色设定、故事线索与关系脉络整理在一起，方便第一次接触的读者快速建立整体印象，
+            也方便已经熟悉作品的人回头核对细节。
+          </p>
+          <div class="hero-tags">
+            <span>角色介绍</span>
+            <span>故事背景</span>
+            <span>人物关系</span>
+            <span>资料整理</span>
+            <span>阅读指引</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#profile">从人物设定看起</a>
+            <a class="btn btn-ghost" href="#faq">直接看常见问题</a>
+          </div>
+        </div>
+
+        <aside class="quick-card" aria-label="角色速览">
+          <h2>速览信息</h2>
+          <ul class="quick-list">
+            <li><b>称谓</b><span>丝丝格格</span></li>
+            <li><b>身份</b><span>作品中的格格形象，具体设定以原作为准</span></li>
+            <li><b>时代感</b><span>带有宫廷与古装色彩</span></li>
+            <li><b>关键词</b><span>性格、成长、家族关系、情感线</span></li>
+            <li><b>适合谁看</b><span>想快速了解角色定位与故事脉络的读者</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 人物设定 ============ -->
+  <section class="section" id="profile">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Character</span>
+        <h2>人物设定：丝丝格格是什么样的角色</h2>
+        <p>理解一个角色，通常从三个层面入手——她的身份位置、她的性格底色，以及她在故事里被推动着完成的变化。下面按这三层展开。</p>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-card">
+          <div class="avatar" aria-hidden="true">丝</div>
+          <h3>丝丝格格</h3>
+          <span class="en">Sisi Gege</span>
+          <ul class="profile-meta">
+            <li><b>称谓</b><span>格格</span></li>
+            <li><b>背景</b><span>古装 / 宫廷语境</span></li>
+            <li><b>核心</b><span>身份与自我之间的拉扯</span></li>
+            <li><b>看点</b><span>性格成长与关系变化</span></li>
+            <li><b>资料</b><span>以公开可查内容为准</span></li>
+          </ul>
+        </div>
+
+        <div class="profile-body">
+          <h3>身份位置</h3>
+          <p>
+            “格格”这一称谓本身，就决定了角色在故事中的起点：她处在一个讲究规矩、长幼与门第的环境里。
+            丝丝格格的故事张力，很大程度上来自这种身份带来的约束感——她被期待成为某种样子，
+            而她自己的性格、想法和选择，未必与这份期待完全吻合。
+          </p>
+
+          <h3>性格底色</h3>
+          <p>
+            从角色塑造的常见逻辑看，丝丝格格这类人物通常不会只停留在“乖巧”或“任性”单一标签上。
+            真正让读者记住的，是她在具体处境中的反应：遇到不公时是否开口，面对亲情与自我冲突时如何取舍，
+            以及她在一次次选择中逐渐清晰起来的自我认知。
+          </p>
+
+          <h3>角色功能</h3>
+          <p>
+            在叙事结构里，丝丝格格往往不只是一个被观看的对象，她也是推动情节的那只手。
+            她的决定会牵动家族关系、情感走向和事件发展，因此理解她，往往也就理解了大半条主线。
+          </p>
+
+          <div class="trait-row">
+            <div class="trait">
+              <b>处境感强</b>
+              <p>身份带来的束缚与个人意愿之间的张力，是角色最容易被记住的部分。</p>
+            </div>
+            <div class="trait">
+              <b>成长线清晰</b>
+              <p>随着事件推进，她的判断与选择会发生变化，形成可追踪的成长轨迹。</p>
+            </div>
+            <div class="trait">
+              <b>关系密集</b>
+              <p>与家人、同伴、对手之间的多条关系线，共同构成她的故事空间。</p>
+            </div>
+            <div class="trait">
+              <b>情感真实</b>
+              <p>喜怒哀乐有来由，不靠刻意煽情，而是由处境自然带出。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 故事背景 ============ -->
+  <section class="section alt" id="story">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Story</span>
+        <h2>故事背景：她处在怎样的世界里</h2>
+        <p>把角色放回她所处的环境，很多看起来“突然”的选择就变得可以理解了。以下从环境、冲突与走向三个角度梳理。</p>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <span class="num">01</span>
+          <h3>环境：规矩之下的日常</h3>
+          <p>
+            故事发生在讲究礼数与等级的背景下。日常起居、言行举止、婚嫁往来都有既定轨道，
+            这构成了丝丝格格生活的基本底色，也决定了她能做什么、不能做什么。
+          </p>
+        </article>
+        <article class="story-card">
+          <span class="num">02</span>
+          <h3>冲突：期待与自我的落差</h3>
+          <p>
+            当外界期待与个人意愿出现偏差，冲突就出现了。这类冲突往往不靠大场面呈现，
+            而是藏在一次次对话、一个个选择里，慢慢累积成推动故事的力量。
+          </p>
+        </article>
+        <article class="story-card">
+          <span class="num">03</span>
+          <h3>走向：在关系中完成变化</h3>
+          <p>
+            角色不会凭空成长。丝丝格格的变化，多半是通过与他人的互动完成的——
+            被理解、被误解、被支持或被反对，这些经历共同塑造了她后来的样子。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 角色关系 ============ -->
+  <section class="section" id="relation">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Relationships</span>
+        <h2>角色关系：几条主要脉络</h2>
+        <p>下表按关系类型归纳角色在故事中可能涉及的主要脉络，用于建立整体框架。具体人物与情节请以原作为准。</p>
+      </div>
+
+      <table class="rel-table">
+        <caption>角色关系脉络参考表（以原作为准）</caption>
+        <thead>
+          <tr>
+            <th scope="col">关系类型</th>
+            <th scope="col">在故事中的作用</th>
+            <th scope="col">常见情节走向</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>家族长辈</td>
+            <td>代表规矩与期待，构成角色的外部压力来源</td>
+            <td>约束、冲突、理解与和解</td>
+          </tr>
+          <tr>
+            <td>同辈同伴</td>
+            <td>提供情绪支持与不同视角，形成对照</td>
+            <td>相识、并肩、分歧、重新靠近</td>
+          </tr>
+          <tr>
+            <td>情感对象</td>
+            <td>推动角色审视自身意愿与未来选择</td>
+            <td>相遇、试探、阻碍、确认</td>
+          </tr>
+          <tr>
+            <td>对立角色</td>
+            <td>制造阻力，让角色的立场更清晰</td>
+            <td>摩擦、对抗、立场碰撞</td>
+          </tr>
+          <tr>
+            <td>身份相关者</td>
+            <td>牵动背景线索，影响角色处境变化</td>
+            <td>牵线、变数、处境转折</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ 内容看点 ============ -->
+  <section class="section alt" id="highlight">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Highlights</span>
+        <h2>内容看点：为什么这个角色值得了解</h2>
+        <p>如果只用一个词概括，大概是“处境”。她的故事好看，不在于身份有多特别，而在于处境足够真实。</p>
+      </div>
+
+      <div class="highlights">
+        <ol class="hl-list">
+          <li>
+            <h3>身份不是装饰，而是限制</h3>
+            <p>“格格”二字带来的不只是体面，还有一整套必须遵守的规则。角色如何在规则中寻找自己的空间，是持续吸引人的地方。</p>
+          </li>
+          <li>
+            <h3>选择比遭遇更能定义人物</h3>
+            <p>遭遇是设定，选择才是性格。丝丝格格在关键时刻做的决定，比她的出身更能说明她是谁。</p>
+          </li>
+          <li>
+            <h3>关系线交织出完整世界</h3>
+            <p>一个人的故事往往是一群人的故事。通过她与周围人的互动，可以看到更完整的时代图景。</p>
+          </li>
+          <li>
+            <h3>成长有迹可循</h3>
+            <p>从最初的反应到后来的判断，变化是渐进的、可以追溯的，这让角色显得可信而非工具化。</p>
+          </li>
+        </ol>
+
+        <aside class="note-box">
+          <h3>阅读提示</h3>
+          <p>
+            不同版本、不同改编对同一角色的处理可能并不一致。人物性格细节、关系走向乃至结局，
+            都可能因载体不同而出现差异。
+          </p>
+          <p>
+            因此，若你正在核对某个具体情节，建议以你实际接触的那一版内容为准，
+            本页提供的是帮助建立整体印象的框架性梳理。
+          </p>
+          <p>
+            如果你只是刚听说这个名字，从“人物设定”一节读起，再顺着“故事背景”往下看，
+            通常能比较快地建立起完整认知。
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 了解建议 ============ -->
+  <section class="section" id="guide">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Guide</span>
+        <h2>了解建议：怎样更快读懂这个角色</h2>
+        <p>面对一个陌生角色，方法比信息量更重要。下面按不同目的给出几条实用建议。</p>
+      </div>
+
+      <div class="guide-grid">
+        <div class="guide-card">
+          <h3>如果你只有十分钟</h3>
+          <ul>
+            <li>先看人物设定中的“身份位置”，理解她的起点。</li>
+            <li>再看“性格底色”，判断她大致是个怎样的人。</li>
+            <li>最后扫一眼关系表，知道她身边有哪些人。</li>
+            <li>不必急着记细节，先建立起整体框架即可。</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3>如果你准备深入阅读</h3>
+          <ul>
+            <li>按时间顺序梳理她的每一次重要选择。</li>
+            <li>留意她在不同阶段对同一件事的态度变化。</li>
+            <li>把关系线单独拉出来看，理解冲突的来源。</li>
+            <li>遇到前后不一致处，先确认是否为不同版本。</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3>如果你在写相关内容</h3>
+          <ul>
+            <li>区分“设定事实”与“个人解读”，避免混为一谈。</li>
+            <li>引用具体情节时，注明所依据的版本。</li>
+            <li>对不确定的信息，使用“可能”“通常”等稳妥表述。</li>
+            <li>避免为角色强行附加原作中并不存在的设定。</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3>容易踩的误区</h3>
+          <ul>
+            <li>把称谓当成性格，认为格格就一定如何。</li>
+            <li>用单一标签概括一个有多面性的角色。</li>
+            <li>把不同改编版本的情节混在一起讨论。</li>
+            <li>忽略配角对主线走向的实际影响。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">FAQ</span>
+        <h2>常见问题</h2>
+        <p>围绕“丝丝格格”这一关键词，读者最常提出的几个问题整理如下。</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>丝丝格格是谁？</summary>
+          <div class="answer">
+            丝丝格格是一个带有古装宫廷色彩的角色形象。她通常被设定为身处讲究规矩与门第的环境中，
+            故事围绕她的身份、性格与关系展开。由于不同版本对细节处理可能不同，
+            具体设定建议以你所接触的原作内容为准。
+          </div>
+        </details>
+
+        <details>
+          <summary>她的性格是怎样的？</summary>
+          <div class="answer">
+            从角色塑造的一般规律看，这类人物往往具有多面性：既有受身份约束的一面，
+            也有坚持自我的部分。真正定义她的，是她在具体处境中的选择，而不是某个单一标签。
+            若想准确判断，建议结合具体情节来看。
+          </div>
+        </details>
+
+        <details>
+          <summary>故事主要讲什么？</summary>
+          <div class="answer">
+            主线通常围绕“身份期待”与“个人意愿”之间的张力展开，
+            并通过她与家族、同伴、情感对象及对立角色之间的互动来推进。
+            成长与关系变化是贯穿始终的两条线索。
+          </div>
+        </details>
+
+        <details>
+          <summary>为什么不同地方看到的情节不一样？</summary>
+          <div class="answer">
+            同一角色在不同载体、不同改编中，人物细节和情节走向都可能被调整。
+            这属于常见的改编现象，并不一定意味着某一方是错的。
+            讨论时注明版本，能避免很多不必要的混淆。
+          </div>
+        </details>
+
+        <details>
+          <summary>想快速了解她，应该从哪里看起？</summary>
+          <div class="answer">
+            建议先读本页的“人物设定”与“故事背景”两部分，建立基本框架，
+            再通过“角色关系”理解她身边的人和冲突来源。
+            如果还有疑问，可回到“常见问题”对照查看。
+          </div>
+        </details>
+
+        <details>
+          <summary>本页资料是否可以直接引用？</summary>
+          <div class="answer">
+            本页是对公开可查信息的框架性整理，用于帮助读者建立整体认知。
+            如果你需要用于正式写作或研究，建议回到原作或权威资料核对具体细节，
+            并对不确定的内容保持谨慎表述。
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>
+          本站围绕“丝丝格格”这一关键词，整理角色设定、故事背景与关系脉络，
+          供读者快速了解角色定位与内容脉络。
+        </p>
+        <p>内容以框架性梳理为主，具体情节请以原作为准。</p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#profile">人物设定</a></li>
+          <li><a href="#story">故事背景</a></li>
+          <li><a href="#relation">角色关系</a></li>
+          <li><a href="#highlight">内容看点</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读帮助</h4>
+        <ul>
+          <li><a href="#guide">了解建议</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#profile">速览信息</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>丝丝格格 · 角色资料整理页</span>
+      <span>内容仅供了解与参考，请以原作及相关正式资料为准</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var links = document.querySelectorAll('.header-nav a[href^="#"]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function(){
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    var faqs = document.querySelectorAll('.faq details');
+    for (var j = 0; j < faqs.length; j++) {
+      faqs[j].addEventListener('toggle', function(){
+        if (this.open) {
+          for (var k = 0; k < faqs.length; k++) {
+            if (faqs[k] !== this) {
+              faqs[k].open = false;
+            }
+          }
+        }
+      });
+    }
+  })();
+</script>
+
+</body>
+  </html>
