@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>u罗汉-佛教罗汉文化解读与十八罗汉图鉴资料</title>
+<meta name="description" content="u罗汉专题页，系统梳理佛教罗汉概念、十八罗汉与五百罗汉的来历、名号特征、造像艺术与常见疑问，帮助读者理解罗汉信仰在汉传佛教中的位置与相关文化常识。">
+<meta name="keywords" content="u罗汉,罗汉,十八罗汉,五百罗汉,阿罗汉,佛教罗汉,罗汉造像">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#2b2118;
+    --ink-soft:#5c4a3a;
+    --paper:#f7f2e8;
+    --paper-2:#fffdf8;
+    --gold:#b8892f;
+    --gold-deep:#8c6318;
+    --red:#9c3b2e;
+    --line:#e2d7c3;
+    --shadow:0 6px 22px rgba(80,58,30,.10);
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Songti SC","STSong","Noto Serif SC","Source Han Serif SC",Georgia,"Microsoft YaHei",serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.85;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;}
+  .wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px;}
+
+  /* 顶部 */
+  .site-header{
+    background:linear-gradient(180deg,#3a2c1e 0%,#2b2118 100%);
+    color:#f6ecd9;
+    border-bottom:3px solid var(--gold);
+    position:sticky;
+    top:0;
+    z-index:50;
+  }
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    padding:14px 20px;
+    max-width:1160px;
+    margin:0 auto;
+    flex-wrap:wrap;
+  }
+  .brand{display:flex;align-items:center;gap:12px;}
+  .brand-mark{
+    width:44px;height:44px;flex:0 0 44px;
+    border-radius:50%;
+    background:radial-gradient(circle at 35% 30%,#f0d69a,#b8892f 70%);
+    color:#3a2c1e;
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;font-weight:700;
+    box-shadow:0 0 0 3px rgba(184,137,47,.25);
+  }
+  .brand-text b{display:block;font-size:19px;letter-spacing:2px;color:#f7e6c4;}
+  .brand-text span{display:block;font-size:12px;color:#c9b48c;letter-spacing:1px;}
+  .main-nav ul{
+    list-style:none;display:flex;gap:6px;margin:0;padding:0;flex-wrap:wrap;
+  }
+  .main-nav a{
+    display:block;padding:8px 14px;border-radius:20px;
+    font-size:14.5px;color:#e6d6b6;transition:.25s;
+  }
+  .main-nav a:hover{background:rgba(184,137,47,.22);color:#fff3d8;}
+
+  /* 首屏 */
+  .hero{
+    background:
+      radial-gradient(circle at 82% 18%,rgba(184,137,47,.20),transparent 55%),
+      linear-gradient(160deg,#fffdf8 0%,#f4ead6 100%);
+    border-bottom:1px solid var(--line);
+    padding:52px 0 46px;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.55fr 1fr;
+    gap:38px;
+    align-items:center;
+  }
+  .hero h1{
+    font-size:36px;
+    line-height:1.4;
+    margin:0 0 16px;
+    letter-spacing:1px;
+    color:#33261a;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--gold-deep);
+    border-bottom:3px solid rgba(184,137,47,.4);
+  }
+  .hero p.lead{
+    font-size:16.5px;
+    color:var(--ink-soft);
+    margin:0 0 22px;
+  }
+  .hero-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px;}
+  .hero-tags span{
+    background:#fff;
+    border:1px solid var(--line);
+    color:var(--gold-deep);
+    font-size:13px;
+    padding:5px 13px;
+    border-radius:20px;
+  }
+  .btn-row{display:flex;gap:14px;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;
+    padding:11px 26px;
+    border-radius:26px;
+    font-size:15px;
+    letter-spacing:1px;
+    transition:.25s;
+    cursor:pointer;
+    border:1px solid transparent;
+  }
+  .btn-primary{background:var(--gold-deep);color:#fff8e8;}
+  .btn-primary:hover{background:#7a5512;}
+  .btn-ghost{background:transparent;color:var(--gold-deep);border-color:var(--gold);}
+  .btn-ghost:hover{background:rgba(184,137,47,.12);}
+
+  .hero-card{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 24px;
+    box-shadow:var(--shadow);
+  }
+  .hero-card h3{
+    margin:0 0 14px;
+    font-size:16px;
+    color:var(--red);
+    letter-spacing:2px;
+    border-left:4px solid var(--gold);
+    padding-left:10px;
+  }
+  .hero-card ul{list-style:none;margin:0;padding:0;}
+  .hero-card li{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    padding:9px 0;
+    border-bottom:1px dashed var(--line);
+  }
+  .hero-card li:last-child{border-bottom:none;}
+  .hero-card li b{color:var(--ink);}
+
+  /* 通用区块 */
+  section{padding:52px 0;}
+  .section-head{margin-bottom:30px;}
+  .section-head .eyebrow{
+    font-size:12.5px;letter-spacing:3px;color:var(--gold-deep);
+    text-transform:uppercase;display:block;margin-bottom:8px;
+  }
+  .section-head h2{
+    font-size:26px;margin:0 0 10px;letter-spacing:1px;color:#33261a;
+  }
+  .section-head p{margin:0;color:var(--ink-soft);font-size:15px;max-width:760px;}
+  .alt{background:#fffdf8;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+
+  /* 概念卡 */
+  .concept-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .concept{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px 22px;
+    box-shadow:0 3px 12px rgba(80,58,30,.05);
+    transition:.25s;
+  }
+  .concept:hover{transform:translateY(-4px);box-shadow:var(--shadow);}
+  .concept .num{
+    font-size:13px;color:var(--gold);letter-spacing:2px;font-weight:700;
+  }
+  .concept h3{font-size:18px;margin:8px 0 10px;color:#33261a;}
+  .concept p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* 十八罗汉列表 */
+  .luohan-list{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+  }
+  .luohan-item{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:4px solid var(--gold);
+    border-radius:10px;
+    padding:16px 18px;
+    transition:.2s;
+  }
+  .luohan-item:hover{border-left-color:var(--red);background:#fffaf0;}
+  .luohan-item h3{
+    font-size:15.5px;margin:0 0 6px;color:#33261a;
+    display:flex;align-items:baseline;gap:8px;
+  }
+  .luohan-item h3 i{
+    font-style:normal;font-size:12px;color:#fff;background:var(--gold-deep);
+    width:20px;height:20px;border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;
+    flex:0 0 20px;font-size:11px;
+  }
+  .luohan-item p{margin:0;font-size:13.8px;color:var(--ink-soft);line-height:1.75;}
+
+  /* 文化解读 双栏 */
+  .two-col{
+    display:grid;
+    grid-template-columns:1.3fr 1fr;
+    gap:34px;
+    align-items:start;
+  }
+  .article-body h2{font-size:24px;margin:0 0 16px;}
+  .article-body h3{font-size:17.5px;margin:26px 0 10px;color:var(--gold-deep);}
+  .article-body p{margin:0 0 14px;color:#463a2c;font-size:15.3px;}
+  .article-body ul{margin:0 0 16px;padding-left:20px;color:#463a2c;font-size:15px;}
+  .article-body li{margin-bottom:8px;}
+
+  .side-note{
+    background:#fffdf8;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px;
+    box-shadow:0 3px 12px rgba(80,58,30,.05);
+    position:sticky;
+    top:96px;
+  }
+  .side-note h3{
+    font-size:16px;margin:0 0 14px;color:var(--red);letter-spacing:1px;
+    padding-bottom:10px;border-bottom:1px solid var(--line);
+  }
+  .side-note dl{margin:0;}
+  .side-note dt{font-size:14px;font-weight:700;color:#33261a;margin-top:12px;}
+  .side-note dd{margin:4px 0 0;font-size:13.8px;color:var(--ink-soft);}
+
+  /* 造像艺术 卡片横排 */
+  .art-row{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+  }
+  .art-card{
+    background:linear-gradient(180deg,#fffdf8,#f6efdf);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 20px;
+    text-align:center;
+  }
+  .art-card .icon{
+    width:52px;height:52px;margin:0 auto 14px;
+    border-radius:50%;
+    background:radial-gradient(circle at 34% 30%,#f2dda9,#c99a3c);
+    display:flex;align-items:center;justify-content:center;
+    font-size:22px;color:#3a2c1e;
+  }
+  .art-card h3{font-size:16px;margin:0 0 8px;color:#33261a;}
+  .art-card p{margin:0;font-size:13.6px;color:var(--ink-soft);}
+
+  /* FAQ */
+  .faq-list{display:grid;gap:14px;}
+  details.faq{
+    background:#fffdf8;
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:0 20px;
+    transition:.2s;
+  }
+  details.faq[open]{border-color:var(--gold);box-shadow:0 4px 16px rgba(184,137,47,.12);}
+  details.faq summary{
+    cursor:pointer;
+    list-style:none;
+    padding:17px 0;
+    font-size:16px;
+    color:#33261a;
+    font-weight:700;
+    display:flex;justify-content:space-between;align-items:center;gap:14px;
+  }
+  details.faq summary::-webkit-details-marker{display:none;}
+  details.faq summary::after{
+    content:"＋";color:var(--gold-deep);font-size:18px;flex:0 0 auto;
+  }
+  details.faq[open] summary::after{content:"－";}
+  details.faq .faq-body{
+    padding:0 0 18px;
+    font-size:14.8px;
+    color:var(--ink-soft);
+    border-top:1px dashed var(--line);
+    padding-top:14px;
+  }
+  details.faq .faq-body p{margin:0 0 10px;}
+  details.faq .faq-body p:last-child{margin-bottom:0;}
+
+  /* 页脚 */
+  .site-footer{
+    background:#2b2118;
+    color:#c9b48c;
+    padding:44px 0 26px;
+    margin-top:10px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:32px;
+    padding-bottom:26px;
+    border-bottom:1px solid rgba(201,180,140,.22);
+  }
+  .footer-grid h4{
+    color:#f0d69a;font-size:15px;margin:0 0 14px;letter-spacing:1.5px;
+  }
+  .footer-grid p{margin:0;font-size:13.6px;line-height:1.9;color:#b3a084;}
+  .footer-grid ul{list-style:none;margin:0;padding:0;}
+  .footer-grid li{margin-bottom:9px;font-size:13.6px;}
+  .footer-grid a:hover{color:#f0d69a;}
+  .footer-bottom{
+    padding-top:20px;
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-size:13px;color:#8f7d63;
+  }
+
+  /* 响应式 */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .concept-grid{grid-template-columns:repeat(2,1fr);}
+    .luohan-list{grid-template-columns:repeat(2,1fr);}
+    .two-col{grid-template-columns:1fr;}
+    .side-note{position:static;}
+    .art-row{grid-template-columns:repeat(2,1fr);}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15.4px;}
+    .header-inner{padding:12px 16px;}
+    .main-nav ul{gap:2px;}
+    .main-nav a{padding:7px 10px;font-size:13.5px;}
+    .hero{padding:36px 0 34px;}
+    .hero h1{font-size:26px;}
+    .hero p.lead{font-size:15.4px;}
+    section{padding:38px 0;}
+    .section-head h2{font-size:21px;}
+    .concept-grid{grid-template-columns:1fr;}
+    .luohan-list{grid-template-columns:1fr;}
+    .art-row{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr;}
+    .btn{padding:10px 20px;font-size:14.5px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">羅</div>
+      <div class="brand-text">
+        <b>u罗汉</b>
+        <span>罗汉文化资料与图鉴</span>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <ul>
+        <li><a href="#concept">罗汉释义</a></li>
+        <li><a href="#eighteen">十八罗汉</a></li>
+        <li><a href="#culture">文化解读</a></li>
+        <li><a href="#art">造像艺术</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>u罗汉：读懂<em>罗汉</em>名号、来历与十八罗汉图鉴</h1>
+        <p class="lead">罗汉是汉传佛教中最贴近日常生活的信仰形象之一。他们不像佛那样高居殿堂正中，也不像菩萨那样以慈悲救度著称，而是以“断尽烦恼、受供人间”的面貌出现在寺院两侧、画卷长卷与民间传说里。本页围绕罗汉的基本含义、十八罗汉与五百罗汉的由来、造像特征以及常见疑问，做一次系统的资料梳理。</p>
+        <div class="hero-tags">
+          <span>阿罗汉</span>
+          <span>十八罗汉</span>
+          <span>五百罗汉</span>
+          <span>罗汉造像</span>
+          <span>汉传佛教</span>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#eighteen">查看十八罗汉</a>
+          <a class="btn btn-ghost" href="#concept">先了解罗汉是什么</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h3>快速认知</h3>
+        <ul>
+          <li><b>梵语来源：</b>“罗汉”为“阿罗汉”的略称，意为值得受供、断除烦恼者。</li>
+          <li><b>果位位置：</b>在小乘修行体系中属最高果位，在大乘语境中被视为护法与应化形象。</li>
+          <li><b>常见组合：</b>十六罗汉、十八罗汉、五百罗汉。</li>
+          <li><b>典型形象：</b>光头、僧袍、相貌各异，多呈自在坐姿。</li>
+          <li><b>文化延伸：</b>绘画长卷、寺院塑像、民间传说与工艺雕刻。</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 罗汉释义 -->
+  <section id="concept">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Basic Concept</span>
+        <h2>罗汉是什么？三个层面理解这一名号</h2>
+        <p>罗汉并不是某一尊固定的佛或菩萨，而是一类修行果位的统称。理解它，需要从词义、果位和信仰形象三个层面分别入手。</p>
+      </div>
+
+      <div class="concept-grid">
+        <article class="concept">
+          <span class="num">01 / 词义</span>
+          <h3>“阿罗汉”的略称</h3>
+          <p>“罗汉”是梵语“阿罗汉”的音译简称，字面含义通常被解释为“值得受供养者”“应供”。在早期佛教经典中，它指已经断尽烦恼、不再受生死轮回束缚的圣者，因此也成为修行者所追求的一种果位名称。日常语境里说“某位罗汉”，往往是把这一果位人格化、形象化之后的说法。</p>
+        </article>
+        <article class="concept">
+          <span class="num">02 / 果位</span>
+          <h3>修行体系中的位置</h3>
+          <p>在声闻乘的修行次第里，阿罗汉是四果中的最高果位，前面依次为须陀洹、斯陀含、阿那含。达到这一果位，意味着烦恼已断、生死已了。大乘佛教对阿罗汉的理解有所不同，常将其视为偏向自度的成就，同时也在大乘经典中赋予罗汉护持佛法、应化度众的角色。</p>
+        </article>
+        <article class="concept">
+          <span class="num">03 / 形象</span>
+          <h3>从果位到信仰形象</h3>
+          <p>罗汉信仰在汉地的发展，很大程度上依托于造像与绘画。十六罗汉、十八罗汉、五百罗汉等组合，让抽象的果位概念变成了可以被观看、被记忆的具体形象。他们相貌各异、神态生动，既有修行者的清苦，也有民间喜闻乐见的诙谐与自在。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 十八罗汉 -->
+  <section class="alt" id="eighteen">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Eighteen Arhats</span>
+        <h2>十八罗汉：从十六罗汉扩展而来的常见组合</h2>
+        <p>罗汉组合中最广为人知的是十八罗汉。其原型一般追溯到十六罗汉，后世在流传过程中逐渐增补为十八位。不同经典、不同寺院与不同画本对名号与排序的记载并不完全一致，以下按较为常见的说法列出，供了解与查阅之用。</p>
+      </div>
+
+      <div class="luohan-list">
+        <article class="luohan-item">
+          <h3><i>1</i>宾度罗跋罗堕阁</h3>
+          <p>常称“坐鹿罗汉”，多被描述为出身贵族而修行成就者，形象常与鹿相伴。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>2</i>迦诺迦伐蹉</h3>
+          <p>常称“喜庆罗汉”，传说善于论议，形象多作欢喜交谈之态。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>3</i>迦诺迦跋厘堕阁</h3>
+          <p>常称“举钵罗汉”，以托钵形象示人，象征受供与化缘的修行生活。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>4</i>苏频陀</h3>
+          <p>常称“托塔罗汉”，手中托塔，塔在佛教中常象征佛的法身与舍利。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>5</i>诺距罗</h3>
+          <p>常称“静坐罗汉”，以静坐禅修的姿态出现，体现定力与内观。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>6</i>跋陀罗</h3>
+          <p>常称“过江罗汉”，传说与渡水弘法相关，形象多带行旅之感。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>7</i>迦理迦</h3>
+          <p>常称“骑象罗汉”，象在佛教中象征力量与稳重，常作乘象之姿。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>8</i>伐阁罗弗多罗</h3>
+          <p>常称“笑狮罗汉”，与狮子相伴，狮子常被用来比喻佛法的威猛。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>9</i>戍博迦</h3>
+          <p>常称“开心罗汉”，形象多作袒胸或示心之态，寓意心地明朗。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>10</i>半托迦</h3>
+          <p>常称“探手罗汉”，姿态舒展，多表现为自在安坐、举手示意。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>11</i>罗怙罗</h3>
+          <p>常称“沉思罗汉”，在经典中与佛陀之子罗睺罗同名，形象多作沉思状。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>12</i>那伽犀那</h3>
+          <p>常称“挖耳罗汉”，以掏耳姿态闻名，民间赋予其闲适自在的意味。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>13</i>因揭陀</h3>
+          <p>常称“布袋罗汉”，与后世布袋和尚形象有所交融，多带喜感。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>14</i>伐那婆斯</h3>
+          <p>常称“芭蕉罗汉”，常与芭蕉树同现，寓意在自然中静修。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>15</i>阿氏多</h3>
+          <p>常称“长眉罗汉”，以长眉老者形象出现，象征年高德劭。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>16</i>注荼半托迦</h3>
+          <p>常称“看门罗汉”，多作守护之姿，体现护持佛法的职能。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>17</i>庆友尊者</h3>
+          <p>为后世增补的两位之一，常见于十八罗汉组合，被视为论师形象。</p>
+        </article>
+        <article class="luohan-item">
+          <h3><i>18</i>宾头卢尊者</h3>
+          <p>为后世增补的另一位，在经典中常与受供、住世护法相关联。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 文化解读 -->
+  <section id="culture">
+    <div class="wrap two-col">
+      <div class="article-body">
+        <div class="section-head">
+          <span class="eyebrow">Culture Notes</span>
+          <h2>罗汉信仰在汉地如何落地</h2>
+        </div>
+
+        <p>罗汉信仰之所以在汉地流传广泛，一个重要原因是它很容易被“看见”。佛与菩萨的造像往往有严格的仪轨，姿态、手印、法器都有固定程式；而罗汉的塑造空间相对宽松，匠人可以依据传说与想象，刻画出喜怒哀乐各不相同的面孔。这种自由度，使罗汉成为佛教艺术中最富生活气息的一类题材。</p>
+
+        <h3>从十六罗汉到十八罗汉</h3>
+        <p>十六罗汉的说法主要见于经典记载，而十八罗汉则是在流传过程中逐步形成的。增补的原因，不同文献有不同解释，有的与经典翻译和论师传承有关，有的则与民间信仰的需要相关。可以确认的是，十八罗汉并非一开始就固定下来，而是在长期传播中逐渐被接受并普及的。因此，今天看到的不同寺院、不同画本在名号和排序上存在差异，属于正常现象。</p>
+
+        <h3>五百罗汉与罗汉堂</h3>
+        <p>五百罗汉的说法在汉传佛教中同样影响深远。部分寺院设有专门的罗汉堂，堂内排列数百尊罗汉像，形象各异，常成为信众与游客驻足观看的场所。罗汉堂的意义不仅在于供奉，也在于以群像的方式呈现修行者群体的多样性——有老有少、有静有动、有沉思也有嬉笑。</p>
+
+        <h3>罗汉形象为何多样</h3>
+        <ul>
+          <li><strong>经典依据有限：</strong>经典对罗汉的形貌描述并不细致，给后世创作留下空间。</li>
+          <li><strong>民间传说补充：</strong>大量传说为罗汉赋予了具体性格与故事。</li>
+          <li><strong>工匠地域差异：</strong>不同地区、不同时代的审美与工艺，直接影响造像风格。</li>
+          <li><strong>功能需要：</strong>罗汉堂需要大量彼此可区分的形象，促使造型不断丰富。</li>
+        </ul>
+
+        <h3>观看罗汉造像时看什么</h3>
+        <p>如果只是走马观花，罗汉像容易显得“差不多”。但如果留意细节，会发现每尊像都有可读之处：手中的法器、身边的动物、坐姿的松紧、面部的表情，往往都对应着特定的传说或象征。比如托塔、骑象、长眉、挖耳这些特征，都是辨识名号的重要线索。把这些线索与名号对照起来看，罗汉造像就不再是一组模糊的群像，而是一份可以逐尊辨认的图鉴。</p>
+      </div>
+
+      <aside class="side-note">
+        <h3>阅读提示</h3>
+        <dl>
+          <dt>名号存在差异</dt>
+          <dd>不同经典、寺院与画本对罗汉名号的记载不完全一致，本页采用较为常见的说法。</dd>
+          <dt>传说不等于史实</dt>
+          <dd>罗汉故事多属宗教传说与民间叙事，阅读时宜区分信仰表达与历史考证。</dd>
+          <dt>造像看特征</dt>
+          <dd>法器、坐骑、姿态与表情，是辨认罗汉名号的主要线索。</dd>
+          <dt>尊重信仰</dt>
+          <dd>罗汉题材涉及宗教内容，参观寺院与查阅资料时宜保持尊重。</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 造像艺术 -->
+  <section class="alt" id="art">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Sculpture &amp; Painting</span>
+        <h2>罗汉造像与绘画的常见表现方式</h2>
+        <p>罗汉题材在雕塑、绘画、木雕与工艺美术中都有大量遗存。不同材质与形式，呈现出的气质也各不相同。</p>
+      </div>
+
+      <div class="art-row">
+        <article class="art-card">
+          <div class="icon">塑</div>
+          <h3>寺院塑像</h3>
+          <p>多见于大殿两侧与罗汉堂，材质包括泥塑、木雕、石雕与脱胎漆等，注重群像的整体排布。</p>
+        </article>
+        <article class="art-card">
+          <div class="icon">画</div>
+          <h3>长卷绘画</h3>
+          <p>以长卷形式逐尊描绘，讲究线条与神态，常配题记标明名号，兼具宗教与艺术价值。</p>
+        </article>
+        <article class="art-card">
+          <div class="icon">雕</div>
+          <h3>木雕与竹刻</h3>
+          <p>体量较小，适合案头陈设，刀法简练，重在捕捉罗汉的表情与动态。</p>
+        </article>
+        <article class="art-card">
+          <div class="icon">器</div>
+          <h3>工艺延伸</h3>
+          <p>罗汉形象也出现在瓷塑、金属工艺与民间年画中，是传统工艺常见的题材之一。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>关于罗汉的常见问题</h2>
+        <p>以下整理的是读者在了解罗汉时较常提出的疑问，回答力求稳妥，不作过度推断。</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq" open>
+          <summary>罗汉和菩萨有什么区别？</summary>
+          <div class="faq-body">
+            <p>在佛教的果位体系中，罗汉与菩萨属于不同的修行路径与定位。罗汉通常指断尽烦恼、了脱生死的圣者，偏重自度；菩萨则以发菩提心、上求佛道下化众生为特征，偏重利他。大乘佛教对两者的评价与诠释，与声闻乘并不完全相同，理解时宜结合具体经典语境。</p>
+          </div>
+        </details>
+        <details class="faq">
+          <summary>十八罗汉到底是哪十八位？</summary>
+          <div class="faq-body">
+            <p>十八罗汉的前十六位一般对应十六罗汉，后两位在不同说法中有差异。由于经典、寺院与画本记载并不统一，名号与排序会有所不同。本页列出的是一种较为常见的组合，供参考之用，不宜视为唯一标准。</p>
+          </div>
+        </details>
+        <details class="faq">
+          <summary>为什么罗汉的形象看起来不像佛那样庄严？</summary>
+          <div class="faq-body">
+            <p>这与罗汉题材的创作传统有关。相比佛与菩萨，罗汉造像在仪轨上的限制较少，工匠可以依据传说与观察，塑造出更接近普通人的面貌与神态。因此罗汉像往往更生动、更有生活气息，也更容易被民间接受和喜爱。</p>
+          </div>
+        </details>
+        <details class="faq">
+          <summary>五百罗汉是确有其人吗？</summary>
+          <div class="faq-body">
+            <p>五百罗汉的说法在佛教传统中流传已久，但其具体所指在不同文献中并不完全一致。它更多是一种群体性的表达，用以呈现修行者群体的广大与多样。将其理解为确切的五百个历史人物，并不符合文献的实际情况。</p>
+          </div>
+        </details>
+        <details class="faq">
+          <summary>参观寺院罗汉堂时需要注意什么？</summary>
+          <div class="faq-body">
+            <p>罗汉堂属于宗教场所，参观时宜保持安静，不随意触摸造像，遵守寺院的相关规定。如需拍摄，应先确认是否允许。对造像的解读可以带着兴趣，但不宜以戏谑的方式对待宗教题材。</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>u罗汉</h4>
+        <p>一个围绕罗汉文化整理资料的专题页面，内容涵盖罗汉的基本释义、十八罗汉与五百罗汉的来历、造像艺术特征以及常见疑问，供佛教文化爱好者查阅参考。页面内容以文化普及为目的，不构成宗教指导。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#concept">罗汉释义</a></li>
+          <li><a href="#eighteen">十八罗汉</a></li>
+          <li><a href="#culture">文化解读</a></li>
+          <li><a href="#art">造像艺术</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>相关概念</h4>
+        <ul>
+          <li>阿罗汉果位</li>
+          <li>十六罗汉</li>
+          <li>五百罗汉</li>
+          <li>罗汉堂造像</li>
+          <li>汉传佛教艺术</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>罗汉文化资料整理 · 内容仅供学习参考</span>
+      <span>如涉及具体经典与寺院记载，请以原典与实物为准</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 平滑滚动时对固定页眉做偏移补偿
+  document.querySelectorAll('.main-nav a[href^="#"], .btn[href^="#"]').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var id = this.getAttribute('href');
+      if(id.length > 1){
+        var target = document.querySelector(id);
+        if(target){
+          e.preventDefault();
+          var offset = document.querySelector('.site-header').offsetHeight + 10;
+          var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({top: top, behavior: 'smooth'});
+        }
+      }
+    });
+  });
+
+  // 只保留一个 FAQ 展开
+  var faqs = document.querySelectorAll('details.faq');
+  faqs.forEach(function(item){
+    item.addEventListener('toggle', function(){
+      if(this.open){
+        faqs.forEach(function(other){
+          if(other !== item){ other.open = false; }
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+            </html>
